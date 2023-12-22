@@ -1,0 +1,20 @@
+{
+  "name": "expo-aws-amplify-auth",
+  "version": "1.0.0",
+  "description": "Example app to show how to use AWS Amplify to manage auth on Expo Managed App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^6.0.9"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^0.6.0",
+    "@aws-amplify/backend-cli": "^0.9.2",
+    "typescript": "^5.3.3"
+  }
+}
