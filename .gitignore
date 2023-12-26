@@ -131,4 +131,4 @@ dist
 
 # amplify
 .amplify
-amplifyconfiguration*
+auth_app/amplifyconfiguration.json
