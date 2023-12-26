@@ -16,8 +16,17 @@
         "source": "/mnt/SSD/Android",
         "target": "/home/node/Android/sdk",
         "type": "bind"
+      },
+      {
+        "source": "/opt/android-studio/jbr",
+        "target": "/home/node/Android/jbr",
+        "type": "bind"
       }
     ],
+    "containerEnv": {
+      "ANDROID_HOME": "/home/node/Android/sdk",
+      "JAVA_HOME": "/home/node/Android/jbr"
+    },
     // Features to add to the dev container. More info: https://containers.dev/features.
     // "features": {},
   
